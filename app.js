@@ -4,6 +4,7 @@ const hostname = '0.0.0.0'
 var LAN
 var WLAN
 
+console.clear()
 // All network cards
 var os = require('os');
 var ifaces = os.networkInterfaces();
